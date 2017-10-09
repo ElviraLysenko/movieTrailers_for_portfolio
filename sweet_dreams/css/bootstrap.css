@@ -236,6 +236,7 @@ body {
   font-size: 14px;
   line-height: 20px;
   color: #333333;
+  height: 100%;
 }
 
 a {
@@ -299,6 +300,7 @@ a:focus {
 .navbar-fixed-top .container,
 .navbar-fixed-bottom .container {
   max-width: 940px;
+  max-height: 100%;
 }
 
 .span12 {
@@ -838,8 +840,7 @@ ol ul {
 
 li {
   line-height: 5px;
-  list-style-type: none; /* Ð£Ð±Ð¸Ñ€Ð°ÐµÐ¼ Ð¼Ð°Ñ€ÐºÐµÑ€Ñ‹ */
-  display: inline;
+  list-style-type: none;
 }
 
 ul.unstyled,
@@ -6197,6 +6198,9 @@ position: relative;
 max-width: 940px;
 }
 
+.img li {
+    display: inline;
+}
 
 .round {
 padding: 5px;
@@ -6228,20 +6232,18 @@ position: absolute;
 }
 
 .sweet {
-  display: block;
-  max-height: 67%;
-  max-width: 870px;
-  margin-top: 82px;
-  margin-left: 5%;
-  position: absolute;
-  overflow: auto;
+    max-height: 420px;
+    max-width: 860px;
+    margin-top: 82px;
+    margin-left: 5%;
+    position: absolute;
+    overflow: auto;
+    margin-right: 30px;
 }
 
 .menu {
-  margin-left: 10px;
-  max-width: 60px;
   margin-top: 100px;
-  position: relative;
+  position: absolute;
 }
 
 #m01, #m02, #m03, #m03, #m04, #m05, #m06 {
@@ -6270,11 +6272,11 @@ padding-top: 1px;
 
 .image {
   float: left;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 } 
 
 .picture, .image {
-  margin: 0px 65px;
+  padding: 0px 65px;
 }
 
 .ingradients {
@@ -6294,7 +6296,7 @@ padding-top: 1px;
   text-align: center;
   font-weight: bold;
   font-size: 17px;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 
 .container .fa-arrow-left {

@@ -30,7 +30,7 @@ $(document).ready(function(){
 			$("#m02, #m03, #m04, #m05, #m06").css("border", "0px solid black");
 				id_menu = "cakes";
 				cakes();
-		}); 
+		});
 
 		$("#f2, #m02").click(function(){
 			$("i").remove();
