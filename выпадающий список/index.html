@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>task</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+</head>
+<body>
+<div id="header">
+	<div class="container">
+		<div id="logo"></div>
+		<ul class="menu">
+				<li><a href="#" class="main_menu">Find events</a><span class="line"></span></li>
+				<li><a href="#" class="main_menu">Create an event</a><span class="line"></span></li>
+				<li><a href="#" class="main_menu">Help</a><span class="line"></span></li>
+				<li id="submenu"><a href="#" class="main_menu" id="etc">...</a>
+				<ul class="main_menu_list">
+					<li><a href="#">News</a></li>
+					<li><a href="#">About us</a></li>
+					<li><a href="#">Contact us</a></li>
+					<li><a href="#">Downloads</a></li>
+					<li><a href="#">Privacy policy</a></li>
+					<li><a href="#">Terms of use</a></li>
+					<li id="search_list"><i class="fa fa-search"></i><input id="search_text_list" type="search" placeholder="Site search"></li>
+					<li>
+						<a href="#" class="icons">
+							<span class="fa-stack fa-lg">
+  								<i class="fa fa-circle fa-stack-2x"></i>
+  								<i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+							</span>
+						</a>
+						<a href="#" class="icons">
+							<span class="fa-stack fa-lg">
+  								<i class="fa fa-circle fa-stack-2x"></i>
+ 								<i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+							</span>
+						</a>
+						<a href="#" class="icons">
+							<span class="fa-stack fa-lg">
+  								<i class="fa fa-circle fa-stack-2x"></i>
+  								<i class="fa fa-google-plus fa-stack-1x fa-inverse"></i>
+							</span>
+						</a>
+						<a href="#" class="icons">
+							<span class="fa-stack fa-lg">
+  								<i class="fa fa-circle fa-stack-2x"></i>
+  								<i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+							</span>
+						</a>
+						<a href="#" class="icons"><span class="fa-stack fa-lg">
+  								<i class="fa fa-circle fa-stack-2x"></i>
+  								<i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+							</span>
+						</a>
+						<a href="#" class="icons"><span class="fa-stack fa-lg">
+  								<i class="fa fa-circle fa-stack-2x"></i>
+  								<i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+							</span>
+						</a>
+					</li>
+				</ul>	
+				</li>
+				<div class="menu_right">
+					<a href="#" id="in">Sign in</a><span class="line"></span>
+					<a href="#" id="up">Sign up</a><span class="line"></span>
+					<a href="#" id="buy"><i id="cart" class="fa fa-shopping-cart"></i><p id="count" style="opacity: 0">32</p></a>
+					<script>
+						var cart = document.getElementById('cart');
+						var count = document.getElementById('count'); 
+						if (count.textContent > 0) {cart.style.color = "orange"; count.style.opacity = "1";} 
+					</script>
+				</div>
+		</ul>
+		<div class="search">
+			<i class="fa fa-search"></i>
+			<input id="search_text" type="search" placeholder="Search for events by keywords">
+		</div>
+		<input id="search_but" type="button" value="SEARCH">
+	</div>
+</div>
+</body>
+</html>
