@@ -1,0 +1,85 @@
+.container {
+	max-width: 1020px;
+	min-width: 320px;
+	margin-right: auto;
+  	margin-left: auto;
+  	*zoom: 1;
+}
+
+.container .elem {
+	position: sticky;
+	display: inline-block;
+	border: 1px solid grey;
+	margin: 10px;
+	padding: 10px;
+	width: 200px;
+	height: 200px;
+	text-align: center;
+}
+
+.container .elem .title {
+	position: absolute;
+	width: 200px;
+	height: 50px;
+	margin-top: 65%;
+	padding-top: 10px;
+	background: rgba(255, 230, 204, 0.9);
+}
+
+.container header {
+	padding-left: 10px;
+}
+
+.container .product_text_all {
+	max-width: 825px;
+	border-style: solid; 
+    border-width: 10px 50px 10px 50px; 
+    padding: 10px;
+    margin: 10px;
+	border-color: #ccffcc; 
+}
+
+.container #product_description {
+	width: calc(100% - 400px);
+}
+
+.container .product_text_all .comments_block {
+	margin-left: 300px;
+	border-radius: 20px; 
+	position: absolute;
+    margin-top: -325px;
+    max-width: 350px;
+}
+
+input:focus { outline: none; }
+
+.container .product_text_all .comments_block .comments_input_text {
+	width: 300px;
+    padding-left: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+    height: 40px;
+}
+
+.container .product_text_all .comments_block .comments_enter {
+    margin-left: 240px;
+    margin-top: 5px;
+    position: relative;
+    border-radius: 10px;
+    border-style: outset;
+}
+
+.container .product_text_all .comments .comments_list {
+	list-style: none;
+	margin: 10px;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 20px; 
+}
+
+.container .product_text_all .comments .comments_list .comments_item {
+	list-style: none;
+}
+
+
+
